@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Northside Clinic — Practice OS</title><link rel="stylesheet" href="styles.css"></head>
+<body><div class="app">
+<aside class="sidebar"><div class="brand"><span class="brand-icon">✚</span><b>northside</b></div>
+<nav id="nav">
+<button class="nav-item active" data-page="Home" title="Home">♡<span>Home</span></button>
+<button class="nav-item" data-page="Activity" title="Activity">⌁<span>Activity</span></button>
+<button class="nav-item" data-page="Inbox" title="Inbox"><span class="nav-bubble">6</span>▣<span>Inbox</span></button>
+<button class="nav-item" data-page="Patients" title="Patients">♙<span>Patients</span></button>
+<button class="nav-item" data-page="Schedule" title="Schedule">▦<span>Schedule</span></button>
+<button class="nav-item" data-page="Campaigns" title="Campaigns">⚑<span>Campaigns</span></button>
+<button class="nav-item" data-page="Analytics" title="Analytics">▥<span>Analytics</span></button>
+<button class="nav-item" data-page="Settings" title="Settings">⚙<span>Settings</span></button>
+</nav><div class="side-bottom"><button class="nav-item" id="whatsapp" title="WhatsApp">◉<span>WhatsApp</span></button><div class="profile">NH</div></div></aside>
+<main class="main"><header class="topbar"><button class="search-icon" id="searchIcon">⌕</button><div class="top-meta"><span class="demo"><i></i> 10:40 AM&nbsp; Demo day</span><button id="darkToggle" class="round">☾</button><button id="bell" class="round">♧<sup>•</sup></button><button class="new-btn" id="newBtn">＋ New</button></div></header><section id="content"></section></main></div>
+<div class="toast" id="toast"></div><div class="overlay" id="modal"><div class="dialog"><button class="x" id="close">×</button><h3 id="modalTitle">Confirm action</h3><p id="modalText"></p><div class="dialog-actions"><button class="outline" id="cancel">Cancel</button><button class="send-btn" id="confirm">Confirm</button></div></div></div><script src="app.js"></script></body></html>
